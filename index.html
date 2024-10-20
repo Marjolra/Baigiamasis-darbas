@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fotografo Svetainė</title>
+</head>
+<body>
+    <header>
+        <div class="logo">UpėJūra</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Apie mane</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#contact">Kontaktai</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <img src="drauges.jpg" alt="Fotografija" class="hero-image">
+        </section>
+        <h1>Apie mane</h1>
+        <section id="about" class="apie-mane">
+            <div class="fotografė">
+                <img src="jūratė.jpg" alt="fotografė">
+                </div>
+                <div class="informacija">
+                <p class="info">Esu profesionalus fotografas, specializuojantis portretuose ir kraštovaizdžiuose. Mėgstu užfiksuoti akimirkas ir pasidalinti jomis su pasauliu.</p>
+            </div>
+            </section>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerija</h2>
+            <div class="galerija-container">
+                <div>
+                    <p>Asmeninės fotosesijos</p>
+                    <img src="asmeninė.jpg" alt="Nuotrauka 1">
+                </div>
+                <div>
+                    <p>Laukimo fotosesijos</p>
+                    <img src="Laukimas.jpg" alt="Nuotrauka 2">
+                </div>
+                <div>
+                    <p>Vestuvių fotosesijos</p>
+                    <img src="vestuvės.jpg" alt="Nuotrauka 3">
+                </div>
+                <div>
+                    <p>Krikštynų fotosesijos</p>
+                    <img src="Krikštas.jpg" alt="Nuotrauka 4">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontaktai</h2>
+            <div class="social">
+                <div>  
+            <form>
+                <label for="name">Vardas:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">El. paštas:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Žinutė:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Siųsti</button>
+            </form>
+            </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100063790020583" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/upejurafotografija/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UpėJūra. Visos teisės saugomos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
